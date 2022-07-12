@@ -5,8 +5,14 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:cardsv2.MVVM.View"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+             Width="300" Height="80">
+    <Button BorderThickness="0" Margin="0.3" Background="#333343"
+            >
+        <Grid Height="79" Width="299">
+            <TextBlock Text="Card Name" FontSize="16" FontFamily="/assets/fonts/#acrom medium" Foreground="White"
+                       HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBlock Text="Card Description" FontSize="14" FontFamily="/assets/fonts/#acrom" Foreground="White"
+                       HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        </Grid>
+    </Button>
 </UserControl>

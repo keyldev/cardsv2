@@ -29,7 +29,7 @@
         </Grid>
         <Grid Background="#434343"
               Margin="0,26,0,0">
-            <ItemsControl ItemsSource="{Binding AllCardsList}">
+            <ItemsControl ItemsSource="{Binding CardsList}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <view:CardPlateView/>
