@@ -12,6 +12,9 @@
         Background="Transparent"
         MouseLeftButtonDown="Window_MouseLeftButtonDown"
         Title="StickyCards v2" Height="450" Width="300">
+    <Window.DataContext>
+        <viewModel:MainWindowViewModel/>
+    </Window.DataContext>
     <Grid>
         <Grid Background="#FF333333"
               VerticalAlignment="Top" Height="25">
