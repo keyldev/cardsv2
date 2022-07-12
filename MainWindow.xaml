@@ -10,7 +10,17 @@
         Background="Transparent"
         MouseLeftButtonDown="Window_MouseLeftButtonDown"
         Title="StickyCards v2" Height="450" Width="300">
-    <Grid Background="#434343">
-        
+    <Grid>
+        <Grid Background="#FF333333"
+              VerticalAlignment="Top" Height="25">
+            <TextBlock HorizontalAlignment="Left" Text="SCv2" Foreground="Gray"
+                       VerticalAlignment="Center" FontFamily="/Assets/fonts/#acrom bold" Margin="5,0,0,0"/>
+            <Button HorizontalAlignment="Right" VerticalAlignment="Center" Content="✕"
+                    Background="Transparent" BorderThickness="0" Foreground="Gray"/>
+        </Grid>
+        <Grid Background="#434343"
+              Margin="0,26,0,0">
+            
+        </Grid>
     </Grid>
 </Window>
