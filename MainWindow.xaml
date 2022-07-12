@@ -16,7 +16,11 @@
             <TextBlock HorizontalAlignment="Left" Text="SCv2" Foreground="Gray"
                        VerticalAlignment="Center" FontFamily="/Assets/fonts/#acrom bold" Margin="5,0,0,0"/>
             <Button HorizontalAlignment="Right" VerticalAlignment="Center" Content="✕"
-                    Background="Transparent" BorderThickness="0" Foreground="Gray"/>
+                    Background="Transparent" BorderThickness="0" Foreground="Gray"
+                    Margin="0,0,3,0" Width="25" Height="25"/>
+            <Button HorizontalAlignment="Right" VerticalAlignment="Center" Content="—"
+                    Background="Transparent" BorderThickness="0" Foreground="Gray"
+                    Margin="0,0,28,0" Width="25" Height="25"/>
         </Grid>
         <Grid Background="#434343"
               Margin="0,26,0,0">
