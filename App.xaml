@@ -2,6 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:cardsv2"
+             xmlns:view="clr-namespace:cardsv2.MVVM.View"
+             xmlns:viewModel="clr-namespace:cardsv2.MVVM.ViewModel"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

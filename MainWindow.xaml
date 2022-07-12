@@ -3,6 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:view="clr-namespace:cardsv2.MVVM.View"
+        xmlns:viewModel="clr-namespace:cardsv2.MVVM.ViewModel"
         xmlns:local="clr-namespace:cardsv2"
         mc:Ignorable="d"
         WindowStyle="None"
@@ -21,10 +23,19 @@
             <Button HorizontalAlignment="Right" VerticalAlignment="Center" Content="—"
                     Background="Transparent" BorderThickness="0" Foreground="Gray"
                     Margin="0,0,28,0" Width="25" Height="25"/>
+            <Button HorizontalAlignment="Right" VerticalAlignment="Center" Content="+"
+                    Background="Transparent" BorderThickness="0" Foreground="Gray"
+                    Margin="0,0,54,0" Width="25" Height="25" FontSize="14"/>
         </Grid>
         <Grid Background="#434343"
               Margin="0,26,0,0">
-            <ItemsControl/>
+            <ItemsControl ItemsSource="{Binding AllCardsList}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <view:CardPlateView/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
         </Grid>
     </Grid>
 </Window>

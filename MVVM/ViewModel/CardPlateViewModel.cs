@@ -9,5 +9,6 @@ namespace cardsv2.MVVM.ViewModel
 {
     internal class CardPlateViewModel : ObservableObject
     {
+
     }
 }
