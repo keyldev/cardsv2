@@ -24,7 +24,7 @@
         </Grid>
         <Grid Background="#434343"
               Margin="0,26,0,0">
-            
+            <ItemsControl/>
         </Grid>
     </Grid>
 </Window>
