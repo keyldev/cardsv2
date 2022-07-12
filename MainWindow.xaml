@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cardsv2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        WindowStyle="None"
+        AllowsTransparency="True" 
+        Background="Transparent"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        Title="StickyCards v2" Height="450" Width="300">
+    <Grid Background="#434343">
+        
     </Grid>
 </Window>
